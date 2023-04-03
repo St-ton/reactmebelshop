@@ -1,0 +1,51 @@
+.card {
+  width: calc(25% - 30px);
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  align-items: flex-start;
+}
+
+.card2 {
+  width: calc(50% - 30px);
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  align-items: flex-start;
+}
+
+@media (max-width: 992px) {
+  .card {
+    width: calc(50%-30px);
+  }
+}
+/* (N/1440*100) = 
+fn(N) {
+    N/1440*100
+}
+fn(420)
+*/
+.img {
+  width: 100%;
+}
+
+.name {
+  color: black;
+  text-decoration: none;
+}
+
+.price {
+  margin-top: 10px;
+  font-size: 24px;
+  margin-top: auto;
+}
+.card-list {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.card-list .img {
+  width: 20%;
+}
