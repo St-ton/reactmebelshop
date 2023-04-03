@@ -10,8 +10,7 @@ const Filter = ({ setGridView, sort, setSort }) => {
           <p className={styles["filter-text"]}>Filter</p>
           <img
             onClick={() => setGridView(4)}
-            // src="./images/grid-view-icon.png"
-            src=""
+            src="./images/grid-view-icon.png"
             alt=""
           />
           <img
