@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/reactmebelshop/static/css/main.5a8098d3.css",
-    "main.js": "/reactmebelshop/static/js/main.c50a6966.js",
+    "main.js": "/reactmebelshop/static/js/main.c93ccf1e.js",
     "static/media/breadcrumb-bg.png": "/reactmebelshop/static/media/breadcrumb-bg.f8401e6913f7c3d9a7ca.png",
     "index.html": "/reactmebelshop/index.html",
     "main.5a8098d3.css.map": "/reactmebelshop/static/css/main.5a8098d3.css.map",
-    "main.c50a6966.js.map": "/reactmebelshop/static/js/main.c50a6966.js.map"
+    "main.c93ccf1e.js.map": "/reactmebelshop/static/js/main.c93ccf1e.js.map"
   },
   "entrypoints": [
     "static/css/main.5a8098d3.css",
-    "static/js/main.c50a6966.js"
+    "static/js/main.c93ccf1e.js"
   ]
 }
