@@ -6,7 +6,7 @@ const Filter = ({ setGridView, sort, setSort }) => {
     <div className={styles.filter}>
       <div className={styles.wrapper}>
         <div className={styles["icon-wrapper"]}>
-          <img src="./images/filter-icon.png" alt="" />
+          <img src="../images/filter-icon.png" alt="" />
           <p className={styles["filter-text"]}>Filter</p>
           <img
             onClick={() => setGridView(4)}
@@ -15,14 +15,14 @@ const Filter = ({ setGridView, sort, setSort }) => {
           />
           <img
             onClick={() => setGridView(2)}
-            src="./images/grid2-view-icon.png"
+            src="../../images/grid2-view-icon.png"
             width={22}
             height={22}
             alt=""
           />
           <img
             onClick={() => setGridView(1)}
-            src="./images/list-view-icon.png"
+            src="/images/list-view-icon.png"
             alt=""
           />
           <p className={styles["amount-text"]}>Showing 1-16 of 32 results</p>
