@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import styles from "./product.module.css";
 
 const Product = (props) => {
-  // let product_style;
+  const product_style = styles.card + props.gridView;
   // if (props.gridView === 4) {
   //   product_style = styles.card4;
   // } else if (props.gridView === 2) {
@@ -14,7 +14,8 @@ const Product = (props) => {
 
   return (
     // <div className={props.gridView ? styles.card : styles["card-list"]}>
-    <div className={`styles.card${props.gridView}`}>
+    // <div className={`styles.card${props.gridView}`}>
+    <div className={product_style}>
       <img src={props.img} alt={props.title} className={styles.img} />
       <div className={styles.info}>
         <Link to={`/catalog/${props.id}`} className={styles.name}>
